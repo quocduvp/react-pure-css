@@ -24,4 +24,4 @@ const ButtonCSS = styled.button `
     background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
   }
 `
-export default Button;
+export { Button };
