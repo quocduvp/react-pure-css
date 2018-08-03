@@ -2,8 +2,9 @@
   "name": "@kindev/react-pure-css",
   "version": "1.0.1",
   "description": "Demo",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "webpack"
   },
@@ -29,8 +30,12 @@
     "babel-preset-react": "^6.24.1",
     "webpack": "^4.16.4"
   },
+  "peerDependencies": {
+    "react": "^16.4.2"
+  },
   "dependencies": {
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "webpack-cli": "^3.1.0"
   }
 }
