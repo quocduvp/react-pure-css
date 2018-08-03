@@ -1,0 +1,27 @@
+{
+  "name": "react-pure-css",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quocduvp/react-pure-css.git"
+  },
+  "keywords": [],
+  "author": "Adward <adward0511@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quocduvp/react-pure-css/issues"
+  },
+  "homepage": "https://github.com/quocduvp/react-pure-css#readme",
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
